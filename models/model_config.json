@@ -1,0 +1,31 @@
+{
+    "model": "XGBoost",
+    "threshold": 0.45,
+    "optimization_metric": "F1",
+    "features": [
+        "DebtRatio",
+        "Has90DaysLate",
+        "HasAnyDelinquency",
+        "HighUtilization",
+        "IncomeMissing",
+        "IncomePerCreditLine",
+        "MonthlyIncome",
+        "NumberOfDependents",
+        "NumberOfOpenCreditLinesAndLoans",
+        "NumberOfTime30-59DaysPastDueNotWorse",
+        "NumberOfTime60-89DaysPastDueNotWorse",
+        "NumberOfTimes90DaysLate",
+        "NumberRealEstateLoansOrLines",
+        "RevolvingUtilizationOfUnsecuredLines",
+        "TotalCreditLines",
+        "TotalDelinquencies",
+        "age",
+        "AgeGroup_21-30",
+        "AgeGroup_31-40",
+        "AgeGroup_41-50",
+        "AgeGroup_51-60",
+        "AgeGroup_61-70",
+        "AgeGroup_71-80",
+        "AgeGroup_81+"
+    ]
+}
